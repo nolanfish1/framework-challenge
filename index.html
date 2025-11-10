@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <title>Hydro Flask Contact Page</title>
 </head>
 <body>
-    <h1>this is a test</h1>
+  <header class="container">
+    <h1>Contact Hydro Flask</h1>
+    <p>We’d love to hear from you.</p>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Customer Support</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:support@hydroflask.com">support@hydroflask.com</a></li>
+        <li><strong>Phone:</strong> 1-888-584-9376</li>
+        <li><strong>Address:</strong> 525 NW York Drive, Bend, OR 97703</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>© 2025 Hydro Flask</p>
+  </footer>
 </body>
 </html>
